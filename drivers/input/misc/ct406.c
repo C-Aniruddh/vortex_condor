@@ -593,6 +593,7 @@ static void ct406_prox_mode_covered(struct ct406_data *ct)
                         delayed_touch_suspend();
                    }
              }
+        #endif
 	pr_info("%s: Prox mode covered\n", __func__);
 }
 
